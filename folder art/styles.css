@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+.container {
+    width: 150px;
+    height: 100px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.box {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    /* background: #8f4deb; */
+    background: linear-gradient(to top, #8e4beb, #b579f6);
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.box:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 50px;
+    background: #835fc1;
+    top: -10px;
+    left: 0px;
+    border-radius: 3px 45% 45% 3px;
+    border-bottom: 1px solid #b579f6;
+}
+.square {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #583f88;
+}
+.square1 {
+    top: 25px;
+    left: 10px;
+}
+.square2 {
+    top: 45px;
+    left: 10px;
+}
+.square3 {
+    top: 65px;
+    left: 10px;
+}
+.square4 {
+    top: 25px;
+    right: 10px;
+}
+.square5 {
+    top: 45px;
+    right: 10px;
+}
+.square6 {
+    top: 65px;
+    right: 10px;
+}
+.play {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid #efefef;
+    transform: rotate(90deg);
+    top: 27px;
+    left: 50px;
+}

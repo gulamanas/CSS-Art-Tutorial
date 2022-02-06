@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: -2;
+}
+.wrapper {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: #ccc;
+    border: 3px solid #000;
+    border-radius: 50%;
+    z-index: -1;
+}
+.stick {
+    position: absolute;
+    width: 20px;
+    height: 400px;
+    background: rgb(156, 135, 90);
+    box-shadow: inset 1px 1px 10px rgb(68, 56, 21);
+    top: 100px;
+    left: 240px;
+    z-index: 2;
+}
+.upper_stick {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background: rgb(184, 154, 90);
+    box-shadow: inset 1px 1px 10px rgb(68, 56, 21);
+    left: 240px;
+    top: 85px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.flag {
+    width: 200px;
+    height: 60px;
+    /* background: green; */
+}
+.saffaron {
+    position: absolute;
+    background: orangered;
+    /* box-shadow: 1px -1px 10px rgb(94, 88, 88); */
+    top: 120px;
+    left: 260px;
+}
+.white {
+    position: absolute;
+    background: white;
+    /* box-shadow: 1px 0 px 10px rgb(94, 88, 88); */
+    top: 180px;
+    left: 260px;
+}
+.green {
+    position: absolute;
+    background: green;
+    /* box-shadow: 1px 1px 10px rgb(94, 88, 88); */
+    top: 240px;
+    left: 260px;
+}
+.circle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    top: 0px;
+    left: 70px;
+}
+.line {
+    position: absolute;
+    height: 60px;
+    width: 1px;
+    background: blue;
+}
+.line1 {
+    left: 29px;
+}
+.line2 {
+    transform: rotate(90deg);
+    left: 29px;
+    bottom: -2px;
+}
+.line3 {
+    transform: rotate(45deg);
+    left: 29px;
+    bottom: -2px;
+}
+.line4 {
+    transform: rotate(-45deg);
+    left: 29px;
+    bottom: -2px;
+}
+.line5 {
+    transform: rotate(15deg);
+    left: 29px;
+    bottom: -2px;
+}
+.line6 {
+    transform: rotate(30deg);
+    left: 29px;
+    bottom: -2px;
+}
+.line7 {
+    transform: rotate(60deg);
+    left: 29px;
+    bottom: -2px;
+}
+.line8 {
+    transform: rotate(75deg);
+    left: 29px;
+    bottom: -2px;
+}
+.line9 {
+    transform: rotate(105deg);
+    left: 29px;
+    bottom: -2px;
+}
+.line10 {
+    transform: rotate(120deg);
+    left: 29px;
+    bottom: -2px;
+}
+.line11 {
+    transform: rotate(150deg);
+    left: 29px;
+    bottom: -2px;
+}
+.line12 {
+    transform: rotate(165deg);
+    left: 29px;
+    bottom: -2px;
+}
