@@ -81,18 +81,27 @@ input[type="button"] {
     box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-left: 1px solid rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
 }
 .square1 {
     height: 100px;
     width: 100px;
     z-index: 1;
-    top: 230px;
-    left: 480px;
+    top: 27%;
+    left: 50%;
 }
 .square2 {
     height: 60px;
     width: 60px;
     z-index: 6;
-    top: 230px;
-    left: 100px;
+    top: 73%;
+    left: 60%;
+}
+.square3 {
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
 }
