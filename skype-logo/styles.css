@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.skype {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    /* background: #0090df; */
+    background: linear-gradient(to bottom, #00b9f1, #007cd6);
+    box-shadow: 1px 1px 10px rgba(71, 71, 71, 0.432);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skype p {
+    font-size: 20rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+.circle1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #007cd6;
+    z-index: -1;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #00a6dc, #0075cb);
+}
+.circle2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #007cd6;
+    z-index: -1;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom, #00a6dc, #0075cb);
+}
