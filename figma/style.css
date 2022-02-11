@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.figma_wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.square {
+    width: 200px;
+    height: 200px;
+}
+.first {
+    background: #e74a1c;
+    border-radius: 50% 0 0 50%;
+}
+.second {
+    background: #f26c5c;
+    border-radius: 0 50% 50% 0;
+}
+.third {
+    background: #9a54f2;
+    border-radius: 50% 0 0 50%;
+}
+.fourth {
+    background: #19b2f0;
+    border-radius: 50%;
+}
+.fifth {
+    background: #09c37b;
+    border-radius: 50% 0 50% 50%;
+}
