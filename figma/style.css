@@ -14,20 +14,25 @@
 .first {
     background: #e74a1c;
     border-radius: 50% 0 0 50%;
+    background: radial-gradient(circle at 140px 70px, #e74a1c, #491201);
 }
 .second {
     background: #f26c5c;
     border-radius: 0 50% 50% 0;
+    background: radial-gradient(circle at 70px 70px, #f26c5c, #2c0501);
 }
 .third {
     background: #9a54f2;
+    background: radial-gradient(circle at 140px 70px, #9a54f2, #0d001d);
     border-radius: 50% 0 0 50%;
 }
 .fourth {
     background: #19b2f0;
+    background: radial-gradient(circle at 70px 70px, #19b2f0, #001822);
     border-radius: 50%;
 }
 .fifth {
     background: #09c37b;
     border-radius: 50% 0 50% 50%;
+    background: radial-gradient(circle at 150px 50px, #09c37b, #012416);
 }
